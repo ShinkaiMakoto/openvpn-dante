@@ -33,8 +33,6 @@ services:
     cap_drop:
       - CAP_MKNOD
     environment:
-      # 时区
-      TZ: "Etc/GMT-2"
       # 保留原来的选项
       FIREWALL: ""
       GROUPID: "1000"
